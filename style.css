@@ -1,0 +1,88 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header{
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 200px;
+}
+nav a{
+    font-size: 1.1em;
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 30px;
+}
+.logo{
+    text-decoration: none;
+    font-size: 1.9em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+section{
+    padding: 100 px 200 px;
+}
+.main{
+    width: 100%;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(https://cdn.logojoy.com/wp-content/uploads/20231122153748/what-is-graphic-design-header.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+.main h2{
+    color: beige;
+    font-size: 1,4em;
+    font-weight: 500;
+}
+.main h2 span{
+    display: block;
+    color: lightblue;
+    font-size: 3em;
+    font-weight: 600;
+}
+.button{
+    text-decoration: none;
+    color: azure;
+    background-color: rgb(40, 150, 194);
+    font-size: 1em;
+    display: inline-block;
+    font-weight: 600;
+    padding: 15px 35px;
+    margin-top: 10 px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+.main2{
+    color: aliceblue;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+.contant{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: white;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    width: 21.5em;
+    padding: 25px;
+    margin: 16px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    color: lightskyblue;
+}
+.card:hover{
+    transform: scale(1.1);
+}
